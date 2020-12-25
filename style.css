@@ -2,19 +2,219 @@
   box-sizing: border-box;
   border: 1px solid red;
 } */
-nav{
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+
+    background-color: rgb(238, 235, 235);
+    height: auto;
+
+
+}
+.logo>img{
+    margin-left: 20px;
+    margin-top: 0px;
+
+}
+.search1{
+    display: inline-block;
+    margin: 10px;
+}
+
+.search2{
+    display: inline-block;
+    margin: 10px;
+}
+.search1>input{
+
+    padding: 14px;
+    padding-left: 45px;
+    position: absolute;
+    top: 20px;
+    left: 10% ;
+    width: 19%;
+    border-radius: 5px;
+    background-image: url("images/search-logo.png");
+    background-repeat: no-repeat;
+    background-size: 16%;
+    
+}
+.search2>input{
+
+    padding: 14px;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    width: 45%;
+    border-radius: 5px;
+    background-image: url("images/search-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 9%;
+    /* background-attachment: fixed; */
+    background-position: right;
+    
+
+}
+.loginsell{
+    position: absolute;
+    top: 34px;
+    left: 78%;
+   
+}
+.sell{
+    display: inline-block;
+    margin-left: 30px; 
+    border-top: 2px solid rgb(144, 219, 233) ;
+    border-left: 2px solid rgb(236, 235, 129) ;
+    border-bottom: 2px solid rgb(89, 102, 218) ;
+ 
+
+}
+.login{
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    font-size: large;
+    padding: 2px;
+}
+
+subnav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    word-spacing: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 0;
+    margin: 0;
+}
+subnav>ul>li:hover{
+
+    color: rgb(78, 139, 218);
+    cursor: pointer;
+}
+.header-img{
+    background-image:url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg");
+    height: 252px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    /* position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+
+}
+header{
+   
+    
+}
+
+
+/* .last-search-img{
+   display: flex;
+   justify-content: space-around;
+} */
+.last-search-img {
     display: flex;
-    height: 48px;
-    width: 100%;
+    justify-content: space-around;
+    overflow-x: hidden;
+    height: 20%;
+    
+
+
 }
-.search{
-    width: 80%;
-    display: flex;    
+.last-search{
+    background-color: rgb(238, 235, 235);
+    border: 1px solid rgb(190, 189, 189); 
+    border-radius: 6px;
+    /* padding: 20px; */
+    margin:60px 40px 0px 40px;
+    /* height: 50%; */
 }
-.main, .main ul{
+.last-search>p{
+    font-size: 25px;
+    padding-left: 20px;
+    line-height: 0;
+}
+.images{
+    width: 22%;  
+    height: 60%; 
+    /* background-color: aqua; */
+    border: 1px solid rgb(190, 189, 189); 
+    border-radius: 6px;
+    /* padding: 20px; */
+    margin: 20px;
+    background-color: #fff;
+
+}
+.img img{
+    padding: 10px;
+    width: 90%;
+}
+.text-img{
+    border-left: 7px solid rgb(240, 240, 50);
+    padding-left: 10px;
+    line-height: 0%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    /* border-radius-bottom: 5px; */
+}
+.footer{
+    background-color: rgb(238, 235, 235);
+    display: flex;
+    /* padding: 20px; */
+    
+
+
+}
+.img-text{
+    /* padding: 50px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* border-right: 2px solid rgb(95, 93, 93); */
+    width: 30%;
+    height: 20px;
+}
+.links-img{
+    
+margin: 50px 0px 30px 20px;
+    border-left: 2px solid rgb(95, 93, 93);
+    padding-left: 40px;
+
+
+}
+.subfooter{
+    background-color: rgb(238, 235, 235);
+display: flex;
+border: 2px solid rgb(202, 201, 201);
+    
+}
+.subfooter ul{
+    list-style-type: none;
+    padding-left: 60px;
+    font-family:monospace ;
+}
+.subfooter ul li:hover{
+    color: rgb(63, 63, 248);
+    cursor:pointer;
+}
+.end{
+    background-color: #002f34;
+    color: rgb(218, 216, 216);
     display: flex;
 }
-.bkimg{
-    height: 200px;
-    background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg");
+.end1>h5,p{
+display: inline-block;
+}
+.end2>h5,p{
+    display: inline-block;
+ 
+    }
+.end2{
+
+    position: relative;
+    left: 400px;
+
 }
